@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h2{
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .card_image{
+        text-align: center;
+        width: 56px;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .temperature, .currentDay{
+        font-size: 44px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .currentDate{
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    // background-color: white;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
