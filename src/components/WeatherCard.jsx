@@ -1,6 +1,6 @@
 import React from 'react';
 import module from './WeatherCard.module.scss'
-import sky from '../assets/sky.jpg'
+import cloud from '../assets/cloudspng.png'
 
 function WeatherCard(props) {
     return (
@@ -8,10 +8,10 @@ function WeatherCard(props) {
             <div className={module.card}>
                 <h2>Москва</h2>
                 <div className={module.card_image}>
-                    <img src={sky} />
+                    <img src={cloud} />
                 </div>
                 <div className={module.temperature}>
-                    -2`
+                    -2°
                 </div>
                 <div className={module.currentDay}>
                     {/* {currentDay} */}

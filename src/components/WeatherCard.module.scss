@@ -2,11 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #c0c0c0;
+
+
 
     h2{
         text-align: center;
         font-weight: 600;
         font-size: 30px;
+        color: white;
     }
 
     .card_image{
@@ -32,6 +36,18 @@
         text-align: center;
         margin-top: 10px;
     }
+
+    .temperature{
+        color: white;
+    }
+}
+
+.container :hover{
+    // filter: brightness(90%);
+    animation: ease-in;
+    background-color: rgba($color: hsl(0, 14%, 69%), $alpha: 0.5);
+    transition: 0.1s;
+    box-shadow: 0 0 20px gray;
 }
 
 .container{
