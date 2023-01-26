@@ -6,23 +6,33 @@ function Header(props) {
     return (
         <header className={module.header}>
             <div className={module.header_content}>
-                <ul>
-                    <li>
-                        Главная
-                    </li>
+                <h3>
+                    w
+                </h3>
 
-                    <li>
-                        Страница 1
-                    </li>
+                <h3>
+                    e
+                </h3>
 
-                    <li>
-                        Страница 2
-                    </li>
+                <h3>
+                    a
+                </h3>
 
-                    <li>
-                        Страница 3
-                    </li>
-                </ul>
+                <h3>
+                    t
+                </h3>
+                
+                <h3>
+                    h
+                </h3>
+
+                <h3>
+                    e
+                </h3>
+
+                <h3>
+                    r
+                </h3>
             </div>
         </header>
     );

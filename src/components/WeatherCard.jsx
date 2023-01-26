@@ -1,17 +1,17 @@
 import React from 'react';
 import module from './WeatherCard.module.scss'
-import cloud from '../assets/cloudspng.png'
+import sun from '../assets/sun.png'
 
 function WeatherCard(props) {
     return (
         <div className={module.container}>
             <div className={module.card}>
-                <h2>Москва</h2>
+                <h2>27.01.23</h2>
                 <div className={module.card_image}>
-                    <img src={cloud} />
+                    <img src={sun} />
                 </div>
                 <div className={module.temperature}>
-                    -2°
+                    <h1>Sunny</h1>
                 </div>
                 <div className={module.currentDay}>
                     {/* {currentDay} */}
@@ -19,6 +19,12 @@ function WeatherCard(props) {
                 <div className={module.currentDate}>
                     {/* {currentDate} */}
                 </div>
+                <div className={module.data_week}>
+                    <h4>-7 Avg</h4>
+                </div>
+                {/* <div className={module.num_data}>
+                    <h4>25 Января</h4>
+                </div> */}
             </div>
         </div>
     );

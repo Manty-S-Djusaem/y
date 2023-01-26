@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import Content from './components/Content'
 import WeatherCard from './components/WeatherCard'
+import Navbar from './components/Navbar'
 
 
 
@@ -12,9 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      
       <Header></Header>
       <Content></Content>
+      <Navbar></Navbar>
       {/* <WeatherCard></WeatherCard> */}
     </div>
   )

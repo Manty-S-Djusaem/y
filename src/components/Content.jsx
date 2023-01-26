@@ -1,8 +1,7 @@
 import React from 'react';
 import module from './Content.module.scss'
-import Weather from '../assets/clouds_js.jpg'
-import Search from './Search'
 import WeatherCard from './WeatherCard'
+
 
 function Content(props) {
     return (
@@ -12,8 +11,8 @@ function Content(props) {
             // backgroundSize: 'cover'
         }}>
             <div className={module.main}>
-                <h1>Просмотр Погоды</h1>
-                <Search></Search>
+                {/* <h1>Просмотр Погоды</h1> */}
+                
                 <WeatherCard></WeatherCard>
                 {/* <WeatherCard></WeatherCard> */}
             </div>
